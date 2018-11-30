@@ -13,7 +13,7 @@ const config = {
     local:{
         protocol: 'http',
         host: '127.0.0.1',//
-        port: 7800
+        port: 9160
     },
     //后台服务端url
     javaServerUrl:'',
