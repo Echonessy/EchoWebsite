@@ -6,6 +6,7 @@ router.get(/(^\/$)|^(\/index)/, index.index);
 
 //首页
 router.get("/index", index.index);//首页
+router.get("/welcome", index.welcome);//首页
 
 router.get("/404", index.i404);//404
 router.get("/403", index.i403);//403
